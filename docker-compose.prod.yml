@@ -1,0 +1,11 @@
+version: 'alpha-1.0'
+services:
+  frontend:
+      container_name : lifetime-vis
+      image: lifetime-visualizer:latest
+      build:
+        context: .
+      environment:
+        - NODE_ENV=production
+      ports:
+        - 3000:3000
