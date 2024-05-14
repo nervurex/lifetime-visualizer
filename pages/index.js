@@ -3,13 +3,13 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container + "  bg-red-800 dark:bg-white"}>
       <Head>
         <title>Create Next App</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
+      <main className={styles.main + " dark:bg-white bg-red-800"}>
         <h1 className={styles.title}>
           Lifetime Visualizer 
         </h1>
